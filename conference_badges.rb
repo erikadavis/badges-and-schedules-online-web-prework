@@ -23,4 +23,3 @@ def printer(names)
       puts "#{name}, #{index}"}
 end
 end
-
