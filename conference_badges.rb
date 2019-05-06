@@ -18,6 +18,8 @@ def printer(names)
   badges = batch_badge_creator(names)
   badges.each do |badge|
     puts badge
-    puts assign_rooms(names).first
+  room_assignments = assign_rooms(names)
+  room_assignments.each.with_index(0) do |name, index|
+    name
   end
 end
