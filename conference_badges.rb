@@ -20,5 +20,4 @@ def printer(names)
     puts badge
   end
     puts assign_rooms(names)
-      end
   end
