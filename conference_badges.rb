@@ -19,7 +19,7 @@ def printer(names)
   badges.each do |badge|
     puts badge
   room_assignments = assign_rooms(names)
-  room_assignments.each.with_index.first do |name, index|
+  room_assignments.each.with_index do |name, index|
     puts name
   end
 end
