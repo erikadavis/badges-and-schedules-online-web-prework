@@ -18,5 +18,9 @@ def printer(names)
   badges = batch_badge_creator(names)
   badges.each do |badge|
     puts badge
+    room_assignments = assign_rooms(names)
+    room_assignments.each_with_index do |speaker, index|
+      puts "#{speaker}, #{index}"
+    end
   end
 end
