@@ -20,7 +20,7 @@ def printer(names)
     puts badge
     room_assignments = assign_rooms(names)
     room_assignments.each.with_index do |name, index|
-      puts "#{name} #{index}"
+      puts "#{name}"
     end
   end
 end
