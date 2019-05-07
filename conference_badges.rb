@@ -22,4 +22,3 @@ def printer(names)
   room_assignments = assign_rooms(names).first(1)
   room_assignments
   end
-end
