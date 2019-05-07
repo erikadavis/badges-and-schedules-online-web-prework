@@ -20,5 +20,5 @@ def printer(names)
     puts badge
   end
   room_assignments = assign_rooms(names).first(1)
-  room_assignments
+  puts room_assignments
   end
