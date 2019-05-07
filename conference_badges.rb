@@ -22,4 +22,4 @@ def printer(names)
   room_assignments.each {|name|return name}
   end
 end
-end
+
