@@ -22,4 +22,3 @@ def printer(names)
   room_assignments.first
   end
 end
-end
