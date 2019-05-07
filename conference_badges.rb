@@ -19,6 +19,6 @@ def printer(names)
   badges.each do |badge|
     puts badge
   room_assignments = assign_rooms(names)
-  room_assignments.each {|room|return room}
+  room_assignments.each {|room|puts "#{room}}
   end
 end
